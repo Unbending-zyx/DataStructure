@@ -41,6 +41,7 @@ public class MiGong {
             }else if (setWay(map,x-1,y)){
                 return true;
             }else {
+                map[y][x]=3;
                 return false;
             }
         }else{
